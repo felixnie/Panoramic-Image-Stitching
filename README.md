@@ -1,9 +1,10 @@
 # Assignment 1: Panoramic Image Stitching
 
 Date: Oct 9, 2020
+
 Link: [https://felixnie.github.io/modules/2020-12-04-ee5731-2-panoramic-image-stitching/](https://felixnie.github.io/modules/2020-12-04-ee5731-2-panoramic-image-stitching/)
 
-## File in Root Directory
+## Files in Root Directory
 
 Some files and libraries are used in multiple parts. Sharing them can make the project more compact. But this needs you to setup the root path of the project by setting the **rootpath** variable in some of the scripts. Please read the instructions in the front of each script, or call 'help *filename*' in MATLAB.
 
