@@ -21,13 +21,15 @@ Some files and libraries are used in multiple parts. Sharing them can make the p
 
 There are 2 subdirectories for this part, each contains a main .m file.
 
-One is based on siftDemoV4 (SIFT demo program, Version 4, July 2005), an implementation of SIFT keypoint detector, created by David Lowe. [Project website](https://www.cs.ubc.ca/~lowe/keypoints/).
+One is based on [siftDemoV4](https://www.cs.ubc.ca/~lowe/keypoints/) (SIFT demo program, Version 4, July 2005), an implementation of SIFT keypoint detector, created by David Lowe.
 
-Another great implementation is VLFeat created by Andrea Vedaldi. [Project website](https://www.vlfeat.org/overview/sift.html).
+Another great implementation is [VLFeat](https://www.vlfeat.org/overview/sift.html) created by Andrea Vedaldi.
 
 For more information, please run:
-> help p2_sift_keypoints
-> help p2_sift_descriptors
+```
+help p2_sift_keypoints
+help p2_sift_descriptors
+```
 
 - siftDemoV4
   - p2_sift_keypoints.m - Main file
@@ -43,22 +45,28 @@ For more information, please run:
 - p3_homography.m - Main file
 - *.jpg/png - Input images
 
-For more information, please run:
-> help p3_homography
+For more information, run:
+```
+help p3_homography
+```
 
 ## Part 4: Manual Homography + Sticthing
 
 - p4_homography_sticthing.m - Main file
 
-For more information, please run:
-> help p4_homography_sticthing
+For more information, run:
+```
+help p4_homography_sticthing
+```
 
 ## Part 5: Homography + RANSAC
 
 - p5_homography_ransac.m - Main file
  
-For more information, please run:
-> help p5_homography_ransac
+For more information, run:
+```
+help p5_homography_ransac
+```
 
 ## Part 6: Basic Panoramic Image
 
@@ -68,8 +76,10 @@ For more information, please run:
 - my_homography.m - Function to compute homography matrix
 - result.fig - Output
 
-For more information, please run:
-> help p6_homography_ransac_multi_image
+For more information, run:
+```
+help p6_homography_ransac_multi_image
+```
 
 ## Part 7: Advanced Panoramic Image
 
